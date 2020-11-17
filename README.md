@@ -5,7 +5,7 @@ Input format: java risingCity file_name (file_name should contain “.txt”)
 
 # Function Prototypes:
 
-# public class risingCity:
+## public class risingCity:
 
 static function1 f1 = new function1(): function related to the min heap
 
@@ -29,7 +29,7 @@ procress one instruction readed from file
 
 public static void main(String args[]): main function
 
-# public class function1:
+## public class function1:
 
 int returnparent(int l): return the parent of a node
 
@@ -45,7 +45,7 @@ public void movetd(buliding_record[] br, int s): check and move the last leaf no
 
 public buliding_record[] del_top(buliding_record[] br): delete the root node of the min heap, and then do the heapify if the min heap contains more than 1 node.
 
-# public class function_rbt:
+## public class function_rbt:
 
 public building_record_rbt leftRotate(building_record_rbt x, building_record_rbt Root): do the left rotate on a particular node
 
@@ -65,7 +65,7 @@ public building_record_rbt remove(building_record_rbt node, building_record_rbt 
 
 private building_record_rbt removeFixUp(building_record_rbt node, building_record_rbt parent, building_record_rbt Root): fix the node after removing, make the tree a red black tree
 
-# class buliding_record:
+## class buliding_record:
 
 int buildingNum: stores the building number
 
@@ -75,7 +75,7 @@ int total_time: stores the total_time
 
 building_record_rbt rbt: point to the same node in the red black tree
 
-# class building_record_rbt:
+## class building_record_rbt:
 
 int buildingNum: stores the building number
 
