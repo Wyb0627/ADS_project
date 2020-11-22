@@ -3,6 +3,8 @@ Advanced Data Structure class project at UF in 2019 Fall, min heap and RBT imple
 
 Input format: java risingCity file_name (file_name should contain “.txt”)
 
+The project report is in the report.pdf.
+
 # Problem description
 Wayne Enterprises is developing a new city. They are constructing many buildings and plan to use software to keep track of all buildings under construction in this new city. A building record has the following fields:
 
